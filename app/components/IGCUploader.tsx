@@ -3,6 +3,7 @@ import IGCParser from "igc-parser";
 import * as igcUtils from "../utils/igcUtils";
 import api from "~/api";
 
+// IGC Files can be found in public folder
 export default function IGCUploader() {
 	const [file, setFile] = useState<string | ArrayBuffer | null | undefined>(
 		""
