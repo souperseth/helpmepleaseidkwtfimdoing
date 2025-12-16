@@ -24,5 +24,5 @@ export function parse(flight: IGCFile) {
   const ground_msl = pilot_msl.map((i: number) => i - valleyFloorMSL);
   const xAxis = time;
 
-  return { time, minutes, pilot_msl, ground_msl };
+  return { timestamps: time, minutes, pilot_msl, ground_msl };
 }

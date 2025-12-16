@@ -5,3 +5,9 @@
 # React Router
 /.react-router/
 /build/
+
+/Claude.md
+
+__pycache__/
+*.py[cod]
+*$py.class
